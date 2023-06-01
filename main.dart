@@ -1,4 +1,5 @@
 void main() {
-  String name = '니꼬';
-  name = 'sdf';
+  String? name = '니꼬';
+  name = null;
+  name?.length;
 }
